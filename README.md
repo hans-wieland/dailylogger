@@ -1,10 +1,14 @@
-# dailylogger
-COMP 489/90
+Daily-logger/Workout-Tracker
+=============================
+_Name to be determined._
 
-This is a commit from Zach
-This is a commit from Hans
-This is a commit from Jon
-This is a commit from Anna
+Created By: Anna Roodbergen, Hans Wieland, Jon Ernest, and Zach LeBlanc
+
+---
+
+## Description:
 
 
-Test from other branch
+
+### Features to implement:
+* Homepage
