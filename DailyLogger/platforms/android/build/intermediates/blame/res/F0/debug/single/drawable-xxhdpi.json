@@ -1,66 +1,6 @@
 [
     {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/unchecked_white.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/unchecked_white.png"
-    },
-    {
         "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/icon.png",
         "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/icon.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/checked.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/checked.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/delete.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/delete.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/unchecked.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/unchecked.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/logo_signup.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/logo_signup.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/checked_white.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/checked_white.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/apple.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/apple.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/recent.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/recent.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/logo_login.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/logo_login.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/selected.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/selected.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/banana.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/banana.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/add.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/add.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/pear.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/pear.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/nonselected.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/nonselected.png"
-    },
-    {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/menu.png",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xxhdpi/menu.png"
     }
 ]

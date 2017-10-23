@@ -1,16 +1,24 @@
 import { Component } from "@angular/core";
 
+import { User } from "./shared/user/user";
+
 @Component({
   selector: "my-app",
-  template: `
-    <StackLayout>
-      <TextField hint="Email Address" keyboardType="email"
-        autocorrect="false" autocapitalizationType="none"></TextField>
-      <TextField hint="Password" secure="true"></TextField>
-
-      <Button text="Sign in"></Button>
-      <Button text="Sign up for Groceries"></Button>
-    </StackLayout>
-  `
+  moduleId: module.id,
+  templateUrl: "./login.html",
+  styleUrls: ["./login-common.css", "./login.css"]
 })
-export class AppComponent {}
+export class AppComponent {
+  user: User;
+  isLoggingIn = true;
+
+  constructor() {
+    this.user = new User();
+  }
+  submit() {
+    alert("You’re using: " + this.user.email);
+  }
+  toggleDisplay() {
+    this.isLoggingIn = !this.isLoggingIn;
+  }
+}

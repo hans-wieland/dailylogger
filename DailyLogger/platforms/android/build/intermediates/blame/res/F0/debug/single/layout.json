@@ -16,24 +16,24 @@
         "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/design_layout_tab_icon.xml",
         "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/notification_template_media_custom.xml",
         "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/design_navigation_item_header.xml",
         "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0/debug/layout/abc_search_dropdown_item_icons_2line.xml",
