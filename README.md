@@ -1,6 +1,6 @@
-Daily-logger/Workout-Tracker
+Wayts
 =============================
-_Name to be determined._
+_A daily workout logger application._
 
 Created By: Anna Roodbergen, Hans Wieland, Jon Ernest, and Zach LeBlanc
 
