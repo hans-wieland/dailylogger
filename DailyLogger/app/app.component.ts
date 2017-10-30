@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-
 import { User } from "./shared/user/user";
+const firebase = require("nativescript-plugin-firebase");
 
 @Component({
   selector: "my-app",
@@ -16,7 +16,22 @@ export class AppComponent {
     this.user = new User();
   }
   submit() {
-    alert("You’re using: " + this.user.email);
+    firebase.login({
+      type: firebase.LoginType.PASSWORD,
+      passwordOptions: {
+        email: this.user.email,
+        password: this.user.password
+      }
+    }).then(
+      result => {
+        JSON.stringify(result);
+        alert("YOURE IN");
+      },
+      errorMessage => {
+        console.log(errorMessage);
+        alert("Failed Login");
+      }
+  );
   }
   toggleDisplay() {
     this.isLoggingIn = !this.isLoggingIn;
