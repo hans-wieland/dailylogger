@@ -1,39 +1,7 @@
 import { Component } from "@angular/core";
-import { User } from "./shared/user/user";
-const firebase = require("nativescript-plugin-firebase");
 
 @Component({
-  selector: "my-app",
-  moduleId: module.id,
-  templateUrl: "./pages/login/login.html",
-  styleUrls: ["pages/login/login-common.css", "pages/login/login.css"]
+  selector: "main",
+  template: "<page-router-outlet></page-router-outlet>"
 })
-export class AppComponent {
-  user: User;
-  isLoggingIn = true;
-
-  constructor() {
-    this.user = new User();
-  }
-  submit() {
-    firebase.login({
-      type: firebase.LoginType.PASSWORD,
-      passwordOptions: {
-        email: this.user.email,
-        password: this.user.password
-      }
-    }).then(
-      result => {
-        JSON.stringify(result);
-        alert("Login Succesful!");
-      },
-      errorMessage => {
-        console.log(errorMessage);
-        alert("Login Error: " + errorMessage);
-      }
-  );
-  }
-  toggleDisplay() {
-    this.isLoggingIn = !this.isLoggingIn;
-  }
-}
+export class AppComponent {}
