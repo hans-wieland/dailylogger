@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>*.entitlements</key>
+		<data>
+		+jb0e341/sNW1MTc9Tnp4MX/bO0=
+		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
 		Mzop5czHmfKMS/nJO0QXhS7qyD8=
@@ -102,7 +106,7 @@
 		</data>
 		<key>LaunchScreen.nib</key>
 		<data>
-		v2p1lVGVoQgIwmBpnDNYJfUcIC8=
+		Kq5jnNeeOrnoJAhUw8YHak0ULh8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -114,11 +118,11 @@
 		</data>
 		<key>app/app.component.js</key>
 		<data>
-		dAV5VKZd+cCJvE/+qeUAqvaMoKc=
+		LrZv38xEo6BG7jlg4Y9rHqSQUp4=
 		</data>
 		<key>app/app.component.ts</key>
 		<data>
-		getT5jaALFi+YVdLeaApsUsB48I=
+		+ijd5OmV7XFSy2GEedlG/7EwEn0=
 		</data>
 		<key>app/app.css</key>
 		<data>
@@ -12304,6 +12308,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>*.entitlements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+jb0e341/sNW1MTc9Tnp4MX/bO0=
+			</data>
+			<key>hash2</key>
+			<data>
+			uswIyYJq46YMX4TmPyqxtzfWugHH7CFv2h0E3B9+HkE=
+			</data>
+		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<dict>
 			<key>hash</key>
@@ -12561,11 +12576,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v2p1lVGVoQgIwmBpnDNYJfUcIC8=
+			Kq5jnNeeOrnoJAhUw8YHak0ULh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ko2N+dwdOCXIpnueLeGbbUAcK22jQ7MmJrwBO5nCgCA=
+			ojXBq78eTaUZbWpMoFU2xs3V3BfvvDZlHMBTXFX0XGw=
 			</data>
 		</dict>
 		<key>app/README.md</key>
@@ -12583,22 +12598,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dAV5VKZd+cCJvE/+qeUAqvaMoKc=
+			LrZv38xEo6BG7jlg4Y9rHqSQUp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zykfMDBDsKfY7EDrxv/xwnK0qhVfoODBBxVp06Z7ICs=
+			8QwJrzkI6CRVNRDUTPxdgeIqpM1Xzp/NRvrYTGiSF9o=
 			</data>
 		</dict>
 		<key>app/app.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			getT5jaALFi+YVdLeaApsUsB48I=
+			+ijd5OmV7XFSy2GEedlG/7EwEn0=
 			</data>
 			<key>hash2</key>
 			<data>
-			c0poaoMVhU8xw7J1qCT4r8N1PRIJgdi2+Q3vFXWOngA=
+			bwzqUqoQbFYeD/tsmhHLoze8cQIhgFbYV8ICfahff0A=
 			</data>
 		</dict>
 		<key>app/app.css</key>

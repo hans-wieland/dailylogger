@@ -16,6 +16,14 @@ export class AppComponent {
     this.user = new User();
   }
   submit() {
+    if (this.isLoggingIn) {
+      this.login();
+    } else {
+      this.signUp();
+    }
+  }
+  
+  login() {
     firebase.login({
       type: firebase.LoginType.PASSWORD,
       passwordOptions: {
@@ -25,14 +33,19 @@ export class AppComponent {
     }).then(
       result => {
         JSON.stringify(result);
-        alert("YOURE IN");
+        alert("Login Succesful!");
       },
       errorMessage => {
         console.log(errorMessage);
-        alert("Failed Login");
+        alert("Login Error: " + errorMessage);
       }
   );
   }
+  
+  signUp() {
+
+  }
+  
   toggleDisplay() {
     this.isLoggingIn = !this.isLoggingIn;
   }

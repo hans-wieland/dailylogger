@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		180C9882ED354B31B6FB7B3E /* icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F82E79FEC545CA8A7AAA99 /* icon-76@3x.png */; };
 		21B222B34BB24CBD97507E27 /* icon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EDF16AD4C140B9A114625C /* icon-20@2x.png */; };
@@ -47,6 +46,7 @@
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
 		EE89ED57204B425689FEAC24 /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F9C07D090A4DF487C3E6EE /* icon-40@3x.png */; };
 		FD2ABFD1CD2B4324B799D9AE /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 232EA29EED024F95AD247AED /* icon-40.png */; };
+		C2A8DB4F992949DEA0E59008 /* *.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 5E4EF5A8601142E4A332B59F /* *.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +110,7 @@
 		FA3DB29748DD437E823B10F4 /* icon-72@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@3x.png"; path = "DailyLogger/Resources/icon-72@3x.png"; sourceTree = "<group>"; };
 		FD7893B1522B4D28B3125FB6 /* icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-50@2x.png"; path = "DailyLogger/Resources/icon-50@2x.png"; sourceTree = "<group>"; };
 		FEC8B6E40AB944EB881880DD /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "DailyLogger/Resources/icon-76.png"; sourceTree = "<group>"; };
+		5E4EF5A8601142E4A332B59F /* *.entitlements */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "*.entitlements"; path = "DailyLogger/Resources/*.entitlements"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +222,7 @@
 				38F82E79FEC545CA8A7AAA99 /* icon-76@3x.png */,
 				29B964DDD51A485F93BC9D8D /* icon-83.5@2x.png */,
 				943118590A344DD59A05A1DE /* icon.png */,
+				5E4EF5A8601142E4A332B59F /* *.entitlements */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -320,6 +322,7 @@
 				180C9882ED354B31B6FB7B3E /* icon-76@3x.png in Resources */,
 				663984674E6B4A3694DA2C6E /* icon-83.5@2x.png in Resources */,
 				76C5B091E0F94B51BCB4E921 /* icon.png in Resources */,
+				C2A8DB4F992949DEA0E59008 /* *.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

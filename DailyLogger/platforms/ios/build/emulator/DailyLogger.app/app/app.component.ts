@@ -25,11 +25,11 @@ export class AppComponent {
     }).then(
       result => {
         JSON.stringify(result);
-        alert("YOURE IN");
+        alert("Login Succesful!");
       },
       errorMessage => {
         console.log(errorMessage);
-        alert("Failed Login");
+        alert("Login Error: " + errorMessage);
       }
   );
   }
