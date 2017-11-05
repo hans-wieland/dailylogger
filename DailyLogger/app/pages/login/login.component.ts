@@ -50,7 +50,7 @@ export class LoginComponent implements OnInit {
       result => {
         JSON.stringify(result);
         alert("Login Succesful!");
-        this.router.navigate(["/list"])
+        this.router.navigate(["/list"]);
       },
       errorMessage => {
         console.log(errorMessage);
@@ -95,5 +95,9 @@ export class LoginComponent implements OnInit {
       backgroundColor: this.isLoggingIn ? new Color("white") : new Color("#301217"),
       duration: 200
     });
+  }
+
+  about() {
+    this.router.navigate(["/about"]);
   }
 }

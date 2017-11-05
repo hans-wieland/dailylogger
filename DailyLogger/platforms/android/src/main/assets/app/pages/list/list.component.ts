@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
+const firebase = require("nativescript-plugin-firebase");
 
 @Component({
   selector: "list",
@@ -13,5 +14,19 @@ export class ListComponent implements OnInit {
     this.groceryList.push({ name: "Apples" });
     this.groceryList.push({ name: "Bananas" });
     this.groceryList.push({ name: "Oranges" });
+  }
+
+  testPush() {
+    alert("hello");
+    firebase.push(
+      '/users',
+      {
+        'list': this.groceryList 
+      }
+  ).then(
+      function (result) {
+        console.log("created key: " + result.key);
+      }
+  );
   }
 }
