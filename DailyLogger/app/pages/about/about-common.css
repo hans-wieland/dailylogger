@@ -1,0 +1,19 @@
+StackLayout {
+    margin-left: 30;
+    margin-right: 30;
+    padding-bottom: 15;
+    background-color: white;
+}
+
+.action-image {
+    width: 40;
+    height: 40;
+    vertical-align: center;
+}
+
+.action-label {
+    color: #00FFFF;  /*Need to change color to fit with app*/
+    font-size: 24;
+    font-weight: bold;
+    vertical-align: center;
+}

@@ -1,9 +1,8 @@
-<page>
+
 <StackLayout>
-<Image src="res://icon" stretch="none" horizontalAlignment="center"></Image>
-<body>
-<h1>About</h1>
-  <pre>
+  <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image>
+  <Label [text] ="About"></Label>
+About
     Developed using:
       NativeScript
       Angular
@@ -15,7 +14,42 @@
       Jon Ernest
       Hans Wieland
       Anna Roodbergen
-    </pre>
-</body>
 </StackLayout>
-</page>
+
+<!--Basis for this code found on NativeScript documentation section-->
+<ActionBar title="test">
+    <StackLayout orientation="horizontal"
+    horizontAlignment="center">
+    <Image src="res://icon" class="action-image"></Image>
+    <Label text="Wayts"  class="action-label"></Label>
+    <!--Attempting to add a slideout bar-->
+    <android>
+    <NavigationButton icon="res://ic_menu" tap="showSlideout" ></NavigationButton>
+  </android>
+  <ios>
+    <ActionItem icon="res://ic_menu" ios.position="left" tap="showSideDrawer" ></ActionItem>
+  </ios>
+  </StackLayout>
+</ActionBar>
+
+
+<!-- <StackLayout>
+  <body>
+    <h1>About</h1>
+    <pre>
+      Developed using:
+        NativeScript
+        Angular
+        TypeScript
+        AndroidStudio
+
+      Created by:
+        Zach LeBlanc
+        Jon Ernest
+        Hans Wieland
+        Anna Roodbergen
+
+      For help, feel free to contact us at ...
+      </pre>
+    </body>
+</stackLayout> -->
