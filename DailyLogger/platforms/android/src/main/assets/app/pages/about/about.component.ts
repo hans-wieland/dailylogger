@@ -9,7 +9,7 @@ import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 export class AboutComponent {}
 
 //Need this to get sideDrawer working
-export function showSideDrawer(args: observable.EventData) {
-    console.log("Show SideDrawer tapped.");
-    // Show sidedrawer ...
-}
+// export function showSideDrawer(args: observable.EventData) {
+//     console.log("Show SideDrawer tapped.");
+//     // Show sidedrawer ...
+// }
