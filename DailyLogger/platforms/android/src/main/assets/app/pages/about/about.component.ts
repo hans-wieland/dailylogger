@@ -1,4 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
+import { TextView } from "ui/text-view";
+import { isAndroid } from "platform";
 
 @Component({
   selector: "list",
@@ -7,6 +9,12 @@ import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
   styleUrls: ["./about-common.css"]
 })
 export class AboutComponent {}
+
+//Use to keep the text from being editable
+export class BasicTextViewComponent {
+
+    public editState = false;
+}
 
 //Need this to get sideDrawer working
 // export function showSideDrawer(args: observable.EventData) {

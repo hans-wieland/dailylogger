@@ -1,8 +1,9 @@
 StackLayout {
     margin-left: 30;
     margin-right: 30;
-    padding-bottom: 15;
-    background-color: white;
+    padding-bottom: 5;
+    padding-top: 5;
+    /*background-color: white;*/
 }
 
 .action-image {
