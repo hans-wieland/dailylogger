@@ -17,3 +17,7 @@ StackLayout {
     font-weight: bold;
     vertical-align: center;
 }
+
+Label {
+  font-size: 32;
+}
