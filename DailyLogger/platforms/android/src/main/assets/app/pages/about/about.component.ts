@@ -10,11 +10,8 @@ import { isAndroid } from "platform";
 })
 export class AboutComponent {}
 
-//Use to keep the text from being editable
-export class BasicTextViewComponent {
-
-    public editState = false;
-}
+//Use for the textView box if needed
+export class BasicTextViewComponent {}
 
 //Need this to get sideDrawer working
 // export function showSideDrawer(args: observable.EventData) {
