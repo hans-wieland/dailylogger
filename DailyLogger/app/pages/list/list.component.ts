@@ -8,12 +8,12 @@ const firebase = require("nativescript-plugin-firebase");
   styleUrls: ["./list-common.css", "./list.css"]
 })
 export class ListComponent implements OnInit {
-  groceryList: Array<Object> = [];
+  exerciseList : Array<Object> = [];
 
   ngOnInit() {
-    this.groceryList.push({ name: "Apples" });
-    this.groceryList.push({ name: "Bananas" });
-    this.groceryList.push({ name: "Oranges" });
+    this.exerciseList.push({ name: "Apples" });
+    this.exerciseList.push({ name: "Bananas" });
+    this.exerciseList.push({ name: "Oranges" });
   }
 
   testPush() {
@@ -21,10 +21,10 @@ export class ListComponent implements OnInit {
     firebase.push(
       '/users',
       {
-        'list': this.groceryList 
+        'list': this.exerciseList
       }
   ).then(
-      function (result) {
+      result => {
         console.log("created key: " + result.key);
       }
   );

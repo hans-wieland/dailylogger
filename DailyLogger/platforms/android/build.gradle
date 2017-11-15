@@ -30,8 +30,7 @@ buildscript {
 
 	dependencies {
 		classpath "com.android.tools.build:gradle:2.2.3"
-    classpath "com.google.gms:google-services:3.1.0"
-    	}
+	}
 }
 
 apply plugin: "com.android.application"
@@ -146,6 +145,8 @@ def applyAppGradleConfiguration = { ->
 	if (appGradle.exists()) {
 		println "\t + applying user-defined configuration from ${appGradle}"
 		apply from: pathToAppGradle
+	} else {
+		println "\t + couldn't load user-defined configuration from ${appGradle}. File doesn't exist."
 	}
 }
 
@@ -226,11 +227,11 @@ android {
 		}
 	}
 
+	applyAppGradleConfiguration()
+
 	def dimensions = applyPluginsIncludeGradleConfigurations()
 	
 	flavorDimensions(*dimensions)
-
-	applyAppGradleConfiguration()
 }
 
 repositories {

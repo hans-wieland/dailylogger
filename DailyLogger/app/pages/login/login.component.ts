@@ -73,7 +73,7 @@ export class LoginComponent implements OnInit {
         result => {
           dialogs.alert({
             title: "User created",
-            message: "userid: " + result.key,
+            message: "User successfully created!\nuserid: " + result.key,
             okButtonText: "Nice!"
           })
         },
@@ -92,7 +92,7 @@ export class LoginComponent implements OnInit {
     this.isLoggingIn = !this.isLoggingIn;
     let container = <View>this.container.nativeElement;
     container.animate({
-      backgroundColor: this.isLoggingIn ? new Color("white") : new Color("#301217"),
+      backgroundColor: this.isLoggingIn ? new Color("white") : new Color("gray"),
       duration: 200
     });
   }
