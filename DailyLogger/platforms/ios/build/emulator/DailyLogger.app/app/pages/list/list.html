@@ -1,0 +1,13 @@
+<ActionBar title="Action Items">
+  <ActionItem (tap)="about()"
+      ios.systemIcon="16" ios.position="right"
+      text="about" android.position="popup"></ActionItem>
+</ActionBar>
+
+<GridLayout>
+    <ListView [items]="exerciseList" class="small-spacing">
+      <ng-template let-item="item">
+        <Label [text]="item.name" class="medium-spacing"></Label>
+      </ng-template>
+    </ListView>
+  </GridLayout>

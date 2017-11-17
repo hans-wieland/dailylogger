@@ -1,0 +1,8 @@
+<GridLayout>
+    <ListView [items]="groceryList" class="small-spacing">
+      <ng-template let-item="item">
+        <Label [text]="item.name" class="medium-spacing"></Label>
+      </ng-template>
+      <Button text="Button" (tap)="testPush()"></Button>
+    </ListView>
+  </GridLayout>

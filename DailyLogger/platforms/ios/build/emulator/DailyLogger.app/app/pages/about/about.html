@@ -1,0 +1,26 @@
+<ActionBar title="Action Items">
+  <ActionItem (tap)="about()"
+      ios.systemIcon="16" ios.position="right"
+      text="about" android.position="popup"></ActionItem>
+</ActionBar>
+
+<Page>
+<StackLayout>
+  <!-- <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image> -->
+  <Label text = "About"></Label>
+  <TextView text =
+    "Developed using:
+        NativeScript
+        Angular
+        TypeScript
+        AndroidStudio
+
+    Created by:
+        Zach LeBlanc
+        Jon Ernest
+        Hans Wieland
+        Anna Roodbergen
+        " editable = false>
+  </TextView>
+</StackLayout>
+</Page>

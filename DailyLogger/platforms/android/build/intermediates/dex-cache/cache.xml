@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ed36108b22a98a311676b5ad153d1e3587fcd16">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-11.2.2_1f625af13a59a87b7bf9fd7c3cb056bc0206258f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-11.2.2_80f9bca236717271a088dd35b7900d391db060bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-media-compat-26.0.0-alpha1_3cf898ae09131d71451c1a903889a8a82a480550.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/share/android-sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-26.0.0-alpha1_1cef49fa34db26a7f4311ee0546f266f0ec4995b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-compat-26.0.0-alpha1_eeaf0d3fc4749bb86c9b32712317b585453d5a1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-cardview-v7-26.0.0-alpha1_5fa2121463862a6fa063d20ed7a3a987ae41b6f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_0c0d4e8a319d41755cf310f0aa1751cbff4ee2ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-26.0.0-alpha1_57ffda1968e9d3823a449834887b294047168a08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-transition-26.0.0-alpha1_1fd472417e0a5bf57d95bd5257cb5e2623bb9de9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-iid-11.2.2_4ce6acc754320feaf03587c6e0b5a9e0627558ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-utils-26.0.0-alpha1_7fc2a83bf82d014e1c71742809f370425fac15fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-common-11.2.2_88e9b7c5fd52029805124e8e41ccb4514ae37415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_1a6d8d2570b6b2aec7ac0eaa5172b1b86ac6196d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d2ee92c55b107ec366ddb534edae4548201e25b">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-11.2.2_ae18f1eb993cf9810f9b95561b8fa5545c9a49d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3352405f829252e602a47d252f11edd7c89d86ff">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-11.2.2_0ce7f70d66c50d5304636d3ea52761757c22307c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-ui-26.0.0-alpha1_f7ff74f2c1dac8d8214b0462fa24821dc5cde8c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="27942406f17e8b8e54175fdac0274805b4edcb2f">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-auth-11.2.2_d900a565702aa9ba358a448b2ab1e9e08ad50845.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_a82f93386e935f6ab9f2ce634b6c64fb7cbbc2c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/gson-2.8.2_56785c1043676251a0f90361d0b9836606f75b66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-fragment-26.0.0-alpha1_0e0a50e2464d7f7a30af4ab20bfd8d9f5b90b53e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-26.0.0-alpha1_c996bf088cf242c3e52edfce8ff4fd2213168fa1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="30553c734f57621f31d6d56ad7b263123c7a014f">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-connection-11.2.2_540c0b5f8d336e398046b44b5216c2a6355fa100.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-design-26.0.0-alpha1_495792f869624cace1d47fdbf57fc20274e5c189.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aebd345a61f563da0989cbd014479c8bf7bd77ab">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-customtabs-26.0.0-alpha1_73e75f98388e80dc7a6d518f30318e699c1558bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf47665b22d68f560d1b8fa2e51b8c23a34574f2">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-11.2.2_22adb9db47fea582ba42baa64979f75d70f28166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bceea9ecae6127fe2677fffebf1a1a20f19ca52e">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-firebase-release_fca6913633dbeb70deaf73549022ccff20bb3892.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="722f4e3d1abfa535e19043c813c62bb144a7d02f">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-impl-11.2.2_d721c68fe468a7a59a0fb5d67cabfaf8db13941d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-nativescript-optimized_ddafd97d49fcec8de8e96b1b022e6d16ce30398a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_375841ff745e9cc2a7e8b233fdc57d1f09fe4585.jar" />
+    </item>
+
+</items>

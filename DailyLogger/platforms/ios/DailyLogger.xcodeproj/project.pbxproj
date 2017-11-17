@@ -5,11 +5,47 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
+		02A8F8A185A445099EF913CD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2F4147E31B4F1AB1D62C08 /* icon-40.png */; };
+		03AD164580B9403580815DD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69D8C816D6004A388BE04C76 /* GoogleService-Info.plist */; };
+		060CF1911D24445E914843C3 /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 4342D76061A9496996665E4B /* icon-29.png */; };
+		0857AD765FBFF94DEDAFF66B /* Pods_DailyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CC4755DA045037F21FE9B4 /* Pods_DailyLogger.framework */; };
+		0A3365B85FC14E51ACB13391 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 043906F51AE848ABA95872E1 /* icon-60.png */; };
+		0A8E5F56B48742E3BB9DC52B /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2343389006D848D698C9232E /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0DB7370EEA3E471D8B0E7521 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7336ABECD84428921A77C1 /* icon-76@2x.png */; };
+		261FA4398CF94B8C886B0825 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E629248048049BF95F5F94B /* icon-40@2x.png */; };
+		27F82B9233434E13B94957FB /* icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FAB35488154099837CAC80 /* icon-20.png */; };
+		340388046CB14573A57F7E5D /* icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DA32A910EE4BF19C3F8C11 /* icon-29@2x.png */; };
+		36BCD9CA13F64ABF9A532FCB /* icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9B310F16B3424BB90427F5 /* icon-50@2x.png */; };
+		3712627E38B840AFA3F8EC40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D693AC70427A425D9EFDAFBF /* LaunchScreen.xib */; };
+		45D7A7BC8FA14D8BA69A6E36 /* icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD67FC980B44DF95B4AF39 /* icon-76@3x.png */; };
+		52998B3735B8457E91B8B652 /* icon-50@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 867A66CE39994664A29D4056 /* icon-50@3x.png */; };
+		601B5A3FE10F4BBFA71198FF /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3356C3D1DE2464390E27F40 /* icon-40@3x.png */; };
+		61D7F4CCEA494B0FAF02D1A2 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D2FFECB5DA3425C87A8E575 /* iTunesArtwork@2x.png */; };
+		6503891BF3E64ED6A800A0B2 /* icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC3CAFD7D9D4AD7A5A7FF61 /* icon-57@2x.png */; };
+		6EB7F92FDA93401997A3159C /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0DB9B3D382464E99D6D5E1 /* icon-76.png */; };
+		74CF5692AFD149A8B48FC591 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29C634F91204FA18228DAA7 /* Icon-Small@3x.png */; };
+		820E65A156A4410AB7609419 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A89C71AE9794D1AAFC9D64E /* iTunesArtwork.png */; };
+		826E57455D6C40E68C7D4ACA /* icon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79BE46EF1E5A426BB533DE38 /* icon-20@2x.png */; };
+		8403656BA343452C89C882DF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74582E7D29B04C56A16F65D2 /* icon.png */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		8C27922F296C4431B88FDDCC /* icon-72@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F127CCBC14D4E16AC065849 /* icon-72@3x.png */; };
+		9282BEC9073C49F9B47CA91B /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D99A5FB6354AC382B523B9 /* icon-57.png */; };
+		95D3B7976FA548D6822BBAB7 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8265651DEB564AE5B68BD11A /* Icon-Small.png */; };
+		A151ADB8778D43D0AC7B93D0 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75788E456BE1434AA64D6538 /* Icon-60@3x.png */; };
+		A258BB684B904F9AB459FC5E /* icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B13CB0F1F4DF1959B55A3 /* icon-29@3x.png */; };
+		BEC92A685DC046008ACAEC29 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA3B23602644DC3BE23257B /* Icon-Small@2x.png */; };
+		CD10EFEE509E4668A52405AB /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE69D06BD9A4D778982BB45 /* icon-50.png */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		D7168BA3862E4E0CA30280ED /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4568409062EE48A6B624DA3E /* icon-72@2x.png */; };
+		DB2FDA3552E04075B079BB13 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034C08F297C642E4A920E69E /* icon-60@2x.png */; };
+		E46704CC59FE43D29C1FF548 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFF89D1F48646FD952C4A01 /* icon-120.png */; };
+		F3681E5DCDF84D4F92C491E2 /* icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DD6EB186141D1A0927D90 /* icon-83.5@2x.png */; };
+		FA7AD00D893149CCB77AF212 /* icon-57@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DD8C7119BA45818E2AE98C /* icon-57@3x.png */; };
+		FBC107DA145A44C482C30FAE /* icon-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 600BD4F4CF9E41FFB47D4778 /* icon-20@3x.png */; };
+		FC7329D06EC04963A9FB494C /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2343389006D848D698C9232E /* TNSWidgets.framework */; };
+		FF8F3BD3E985469299925802 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA43B1170A942A2AA91B1D2 /* icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0A8E5F56B48742E3BB9DC52B /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -26,16 +63,52 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		034C08F297C642E4A920E69E /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "DailyLogger/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		043906F51AE848ABA95872E1 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "DailyLogger/Resources/icon-60.png"; sourceTree = "<group>"; };
+		0A89C71AE9794D1AAFC9D64E /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = DailyLogger/Resources/iTunesArtwork.png; sourceTree = "<group>"; };
+		1A0DB9B3D382464E99D6D5E1 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "DailyLogger/Resources/icon-76.png"; sourceTree = "<group>"; };
+		2343389006D848D698C9232E /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		2F127CCBC14D4E16AC065849 /* icon-72@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@3x.png"; path = "DailyLogger/Resources/icon-72@3x.png"; sourceTree = "<group>"; };
+		34CC4755DA045037F21FE9B4 /* Pods_DailyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DA32A910EE4BF19C3F8C11 /* icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29@2x.png"; path = "DailyLogger/Resources/icon-29@2x.png"; sourceTree = "<group>"; };
+		4342D76061A9496996665E4B /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29.png"; path = "DailyLogger/Resources/icon-29.png"; sourceTree = "<group>"; };
+		4568409062EE48A6B624DA3E /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "DailyLogger/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		4DE69D06BD9A4D778982BB45 /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-50.png"; path = "DailyLogger/Resources/icon-50.png"; sourceTree = "<group>"; };
+		57FAB35488154099837CAC80 /* icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-20.png"; path = "DailyLogger/Resources/icon-20.png"; sourceTree = "<group>"; };
+		5B7336ABECD84428921A77C1 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "DailyLogger/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		5FBD67FC980B44DF95B4AF39 /* icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@3x.png"; path = "DailyLogger/Resources/icon-76@3x.png"; sourceTree = "<group>"; };
+		600BD4F4CF9E41FFB47D4778 /* icon-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-20@3x.png"; path = "DailyLogger/Resources/icon-20@3x.png"; sourceTree = "<group>"; };
+		69D8C816D6004A388BE04C76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "GoogleService-Info.plist"; path = "DailyLogger/Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D2FFECB5DA3425C87A8E575 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "DailyLogger/Resources/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		74582E7D29B04C56A16F65D2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = DailyLogger/Resources/icon.png; sourceTree = "<group>"; };
+		75788E456BE1434AA64D6538 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "DailyLogger/Resources/Icon-60@3x.png"; sourceTree = "<group>"; };
+		79BE46EF1E5A426BB533DE38 /* icon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-20@2x.png"; path = "DailyLogger/Resources/icon-20@2x.png"; sourceTree = "<group>"; };
+		8265651DEB564AE5B68BD11A /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "DailyLogger/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		84D99A5FB6354AC382B523B9 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57.png"; path = "DailyLogger/Resources/icon-57.png"; sourceTree = "<group>"; };
 		858B832E18CA111C00AB12DE /* DailyLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* DailyLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailyLogger-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* DailyLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DailyLogger-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* DailyLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		867A66CE39994664A29D4056 /* icon-50@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-50@3x.png"; path = "DailyLogger/Resources/icon-50@3x.png"; sourceTree = "<group>"; };
+		8BFF89D1F48646FD952C4A01 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-120.png"; path = "DailyLogger/Resources/icon-120.png"; sourceTree = "<group>"; };
+		8E629248048049BF95F5F94B /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "DailyLogger/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		9C5DD6EB186141D1A0927D90 /* icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-83.5@2x.png"; path = "DailyLogger/Resources/icon-83.5@2x.png"; sourceTree = "<group>"; };
+		9E4B13CB0F1F4DF1959B55A3 /* icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-29@3x.png"; path = "DailyLogger/Resources/icon-29@3x.png"; sourceTree = "<group>"; };
+		A7DD8C7119BA45818E2AE98C /* icon-57@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57@3x.png"; path = "DailyLogger/Resources/icon-57@3x.png"; sourceTree = "<group>"; };
+		AC2F4147E31B4F1AB1D62C08 /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "DailyLogger/Resources/icon-40.png"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		D29C634F91204FA18228DAA7 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@3x.png"; path = "DailyLogger/Resources/Icon-Small@3x.png"; sourceTree = "<group>"; };
+		D693AC70427A425D9EFDAFBF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = DailyLogger/Resources/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECA3B23602644DC3BE23257B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "DailyLogger/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F3356C3D1DE2464390E27F40 /* icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@3x.png"; path = "DailyLogger/Resources/icon-40@3x.png"; sourceTree = "<group>"; };
+		FB9B310F16B3424BB90427F5 /* icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-50@2x.png"; path = "DailyLogger/Resources/icon-50@2x.png"; sourceTree = "<group>"; };
+		FDC3CAFD7D9D4AD7A5A7FF61 /* icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57@2x.png"; path = "DailyLogger/Resources/icon-57@2x.png"; sourceTree = "<group>"; };
+		FEA43B1170A942A2AA91B1D2 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "DailyLogger/Resources/icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7329D06EC04963A9FB494C /* TNSWidgets.framework in Frameworks */,
+				0857AD765FBFF94DEDAFF66B /* Pods_DailyLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +131,7 @@
 				858B833718CA111C00AB12DE /* DailyLogger */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
+				A5788EC49384C9AC5F57EE70 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +147,8 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2343389006D848D698C9232E /* TNSWidgets.framework */,
+				34CC4755DA045037F21FE9B4 /* Pods_DailyLogger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,9 +176,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A5788EC49384C9AC5F57EE70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				69D8C816D6004A388BE04C76 /* GoogleService-Info.plist */,
+				75788E456BE1434AA64D6538 /* Icon-60@3x.png */,
+				8265651DEB564AE5B68BD11A /* Icon-Small.png */,
+				ECA3B23602644DC3BE23257B /* Icon-Small@2x.png */,
+				D29C634F91204FA18228DAA7 /* Icon-Small@3x.png */,
+				D693AC70427A425D9EFDAFBF /* LaunchScreen.xib */,
+				0A89C71AE9794D1AAFC9D64E /* iTunesArtwork.png */,
+				6D2FFECB5DA3425C87A8E575 /* iTunesArtwork@2x.png */,
+				8BFF89D1F48646FD952C4A01 /* icon-120.png */,
+				57FAB35488154099837CAC80 /* icon-20.png */,
+				79BE46EF1E5A426BB533DE38 /* icon-20@2x.png */,
+				600BD4F4CF9E41FFB47D4778 /* icon-20@3x.png */,
+				4342D76061A9496996665E4B /* icon-29.png */,
+				40DA32A910EE4BF19C3F8C11 /* icon-29@2x.png */,
+				9E4B13CB0F1F4DF1959B55A3 /* icon-29@3x.png */,
+				AC2F4147E31B4F1AB1D62C08 /* icon-40.png */,
+				8E629248048049BF95F5F94B /* icon-40@2x.png */,
+				F3356C3D1DE2464390E27F40 /* icon-40@3x.png */,
+				4DE69D06BD9A4D778982BB45 /* icon-50.png */,
+				FB9B310F16B3424BB90427F5 /* icon-50@2x.png */,
+				867A66CE39994664A29D4056 /* icon-50@3x.png */,
+				84D99A5FB6354AC382B523B9 /* icon-57.png */,
+				FDC3CAFD7D9D4AD7A5A7FF61 /* icon-57@2x.png */,
+				A7DD8C7119BA45818E2AE98C /* icon-57@3x.png */,
+				043906F51AE848ABA95872E1 /* icon-60.png */,
+				034C08F297C642E4A920E69E /* icon-60@2x.png */,
+				FEA43B1170A942A2AA91B1D2 /* icon-72.png */,
+				4568409062EE48A6B624DA3E /* icon-72@2x.png */,
+				2F127CCBC14D4E16AC065849 /* icon-72@3x.png */,
+				1A0DB9B3D382464E99D6D5E1 /* icon-76.png */,
+				5B7336ABECD84428921A77C1 /* icon-76@2x.png */,
+				5FBD67FC980B44DF95B4AF39 /* icon-76@3x.png */,
+				9C5DD6EB186141D1A0927D90 /* icon-83.5@2x.png */,
+				74582E7D29B04C56A16F65D2 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -112,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "DailyLogger" */;
 			buildPhases = (
+				E4CC7AEBD1FC1138EFD56EA6 /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -119,6 +239,8 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				615C7300F848F0C62AE39031 /* [CP] Embed Pods Frameworks */,
+				83EC64C31203040400B638FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,7 +258,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TNS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 500;
 				ORGANIZATIONNAME = Telerik;
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "DailyLogger" */;
@@ -163,12 +285,85 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				03AD164580B9403580815DD6 /* GoogleService-Info.plist in Resources */,
+				A151ADB8778D43D0AC7B93D0 /* Icon-60@3x.png in Resources */,
+				95D3B7976FA548D6822BBAB7 /* Icon-Small.png in Resources */,
+				BEC92A685DC046008ACAEC29 /* Icon-Small@2x.png in Resources */,
+				74CF5692AFD149A8B48FC591 /* Icon-Small@3x.png in Resources */,
+				3712627E38B840AFA3F8EC40 /* LaunchScreen.xib in Resources */,
+				820E65A156A4410AB7609419 /* iTunesArtwork.png in Resources */,
+				61D7F4CCEA494B0FAF02D1A2 /* iTunesArtwork@2x.png in Resources */,
+				E46704CC59FE43D29C1FF548 /* icon-120.png in Resources */,
+				27F82B9233434E13B94957FB /* icon-20.png in Resources */,
+				826E57455D6C40E68C7D4ACA /* icon-20@2x.png in Resources */,
+				FBC107DA145A44C482C30FAE /* icon-20@3x.png in Resources */,
+				060CF1911D24445E914843C3 /* icon-29.png in Resources */,
+				340388046CB14573A57F7E5D /* icon-29@2x.png in Resources */,
+				A258BB684B904F9AB459FC5E /* icon-29@3x.png in Resources */,
+				02A8F8A185A445099EF913CD /* icon-40.png in Resources */,
+				261FA4398CF94B8C886B0825 /* icon-40@2x.png in Resources */,
+				601B5A3FE10F4BBFA71198FF /* icon-40@3x.png in Resources */,
+				CD10EFEE509E4668A52405AB /* icon-50.png in Resources */,
+				36BCD9CA13F64ABF9A532FCB /* icon-50@2x.png in Resources */,
+				52998B3735B8457E91B8B652 /* icon-50@3x.png in Resources */,
+				9282BEC9073C49F9B47CA91B /* icon-57.png in Resources */,
+				6503891BF3E64ED6A800A0B2 /* icon-57@2x.png in Resources */,
+				FA7AD00D893149CCB77AF212 /* icon-57@3x.png in Resources */,
+				0A3365B85FC14E51ACB13391 /* icon-60.png in Resources */,
+				DB2FDA3552E04075B079BB13 /* icon-60@2x.png in Resources */,
+				FF8F3BD3E985469299925802 /* icon-72.png in Resources */,
+				D7168BA3862E4E0CA30280ED /* icon-72@2x.png in Resources */,
+				8C27922F296C4431B88FDDCC /* icon-72@3x.png in Resources */,
+				6EB7F92FDA93401997A3159C /* icon-76.png in Resources */,
+				0DB7370EEA3E471D8B0E7521 /* icon-76@2x.png in Resources */,
+				45D7A7BC8FA14D8BA69A6E36 /* icon-76@3x.png in Resources */,
+				F3681E5DCDF84D4F92C491E2 /* icon-83.5@2x.png in Resources */,
+				8403656BA343452C89C882DF /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		615C7300F848F0C62AE39031 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DailyLogger/Pods-DailyLogger-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DailyLogger/Pods-DailyLogger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83EC64C31203040400B638FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DailyLogger/Pods-DailyLogger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +407,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+		E4CC7AEBD1FC1138EFD56EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyLogger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -319,6 +532,10 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DailyLogger/DailyLogger-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -341,6 +558,10 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DailyLogger/DailyLogger-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DailyLogger/DailyLogger-Info.plist";
