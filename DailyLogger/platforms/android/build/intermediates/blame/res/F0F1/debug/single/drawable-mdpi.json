@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\icon.png",
         "source": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-mdpi\\ic_drawer.png",
+        "source": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
     }
 ]

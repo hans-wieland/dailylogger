@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\zachleblanc\\Projects\\NativeScript\\Comp490App\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xhdpi\\icon.png",
-        "source": "C:\\Users\\zachleblanc\\Projects\\NativeScript\\Comp490App\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-xhdpi\\icon.png"
+        "merged": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xhdpi\\ic_drawer.png",
+        "source": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
     },
     {
         "merged": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xhdpi\\icon.png",
         "source": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\zachleblanc\\Projects\\NativeScript\\Comp490App\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xhdpi\\icon.png",
+        "source": "C:\\Users\\zachleblanc\\Projects\\NativeScript\\Comp490App\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-xhdpi\\icon.png"
     }
 ]
