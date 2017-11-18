@@ -1,4 +1,4 @@
-#Mon Oct 30 15:07:33 EDT 2017
-base.0=/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main
+#Fri Nov 17 14:52:47 EST 2017
+base.0=C\:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0F1\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main/classes.dex
+file.0=C\:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0F1\\debug\\folders\\1000\\1f\\main\\classes.dex

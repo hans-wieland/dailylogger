@@ -1,19 +1,39 @@
+
+
+<Page>
 <StackLayout>
-<Image src="res://icon" stretch="none" horizontalAlignment="center"></Image>
-<body>
-<h1>About</h1>
-  <pre>
+  <!-- <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image> -->
+  <Label text = "About"></Label>
+  <TextView text =
+    "Wayts is a workout logger application that allows you to create and share workout plans with your friends.
+
     Developed using:
-      NativeScript
-      Angular
-      TypeScript
-      AndroidStudio
+        NativeScript
+        Angular
+        TypeScript
+        AndroidStudio
 
     Created by:
-      Zach LeBlanc
-      Jon Ernest
-      Hans Wieland
-      Anna Roodbergen
-    </pre>
-</body>
-</stackLayout>
+        Zach LeBlanc
+        Jon Ernest
+        Hans Wieland
+        Anna Roodbergen
+        " editable = false>
+  </TextView>
+</StackLayout>
+</Page>
+
+<!--Basis for this code found on NativeScript documentation section-->
+<ActionBar title="Wayts">
+    <StackLayout orientation="horizontal"
+    horizontAlignment="center">
+    <Image src="res://icon" class="action-image"></Image>
+
+
+  </StackLayout>
+</ActionBar>
+
+
+<!--
+      For help, feel free to contact us at ...
+   -->
