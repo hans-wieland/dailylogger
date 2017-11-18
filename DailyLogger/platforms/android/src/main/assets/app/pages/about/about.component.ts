@@ -11,9 +11,19 @@ import { RadSideDrawerComponent, SideDrawerType } from "nativescript-pro-ui/side
   styleUrls: ["./about-common.css"]
 })
 export class AboutComponent {
-  constructor(private routerExtensions: RouterExtensions) {
-
- }
+  @ViewChild(RadSideDrawerComponent)
+  public drawerComponent: RadSideDrawerComponent;
+  private drawer: SideDrawerType;
+  public pages:Array<Object>;
+  constructor(private routerExtensions: RouterExtensions,
+  private _changeDetectionRef: ChangeDetectorRef){
+  // List all pages here
+   this.pages = [
+      //{name:"Home"},
+      //{name:"Contact"},
+      {name:"About"}
+  ];
+  }
   about() {
     this.routerExtensions.navigate(["/about"]);
   }
@@ -21,4 +31,15 @@ export class AboutComponent {
   public onTap() {
 
   }
+
+  ngAfterViewInit() {
+      this.drawer = this.drawerComponent.sideDrawer;
+      this._changeDetectionRef.detectChanges();
+  }
+
+  public openDrawer() {
+      this.drawer.toggleDrawerState();
+  }
+
+
 }
