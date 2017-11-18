@@ -77,6 +77,7 @@ C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\ma
 C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\main\assets\app\tns_modules\nativescript-plugin-firebase\scripts\entitlements-after-prepare.js
 C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\main\assets\app\tns_modules\nativescript-plugin-firebase\scripts\entitlements-before-prepare.js
 C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\main\assets\app\tns_modules\nativescript-plugin-firebase\scripts\postinstall.js
+C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\main\assets\app\tns_modules\nativescript-pro-ui\scripts\eula-prompt.js
 C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js

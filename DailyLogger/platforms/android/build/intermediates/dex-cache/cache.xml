@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\design\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-design-26.0.0-alpha1_0c74c8dbf71ffa40ee68fbd0732b8b5f36f8269f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -30,12 +39,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-transition-26.0.0-alpha1_839ab6bdaa914e141abdfbba020ddceaf27fa1dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.2.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="1d2ee92c55b107ec366ddb534edae4548201e25b">
         <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.android.gms-play-services-base-11.2.2_dce899f291bc8c7c470befe6768766edf39bb25c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="27942406f17e8b8e54175fdac0274805b4edcb2f">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-auth-11.2.2_4b5b788caf74fe7ca9f833d4397c7111a2dc2299.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-recyclerview-v7-26.0.0-alpha1_3e29ccd11bab2aa36bd973bd06b3310b6cb59664.jar" />
     </item>
     <item
         is-multidex="false"
@@ -54,6 +90,15 @@
         revision="26.0.2"
         sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
         <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-compat-26.0.0-alpha1_8f81e348f85c4be5fde3b9ace1e0ab048b5e5bb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-core-utils-26.0.0-alpha1_f9530d6a1ea6c36a5eb9f3eed409ec0f1a307a03.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,120 +138,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-analytics-11.2.2_ece9ace9d26b9967829fc384a9c7181c1a02ca42.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-iid-11.2.2_13ca7bceb6d6d2e88743128bd7e9cff847589b75.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-fragment-26.0.0-alpha1_b35d58e8d4047e93074a4d5b830d9c0c9850f52e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-common-11.2.2_efc93636717225510ba83da0d21aa4dae06b53d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\firebase-release\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="bceea9ecae6127fe2677fffebf1a1a20f19ca52e">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-firebase-release_d0255fb5c6b5439927860850108c0176554548c3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\11.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="30553c734f57621f31d6d56ad7b263123c7a014f">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-database-connection-11.2.2_c7013473838ab849d0a54394b5efab4f3d899aba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-database\11.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="3352405f829252e602a47d252f11edd7c89d86ff">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-database-11.2.2_e72cffa353bf25d78173df2ea5887c19f47a3a17.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\design\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-design-26.0.0-alpha1_0c74c8dbf71ffa40ee68fbd0732b8b5f36f8269f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-transition-26.0.0-alpha1_839ab6bdaa914e141abdfbba020ddceaf27fa1dc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\11.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="27942406f17e8b8e54175fdac0274805b4edcb2f">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-auth-11.2.2_4b5b788caf74fe7ca9f833d4397c7111a2dc2299.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-recyclerview-v7-26.0.0-alpha1_3e29ccd11bab2aa36bd973bd06b3310b6cb59664.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-core-utils-26.0.0-alpha1_f9530d6a1ea6c36a5eb9f3eed409ec0f1a307a03.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
         <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-appcompat-v7-26.0.0-alpha1_5ae3c6cd82ddd742142ca8749130c4f55add4a9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-analytics-11.2.2_ece9ace9d26b9967829fc384a9c7181c1a02ca42.jar" />
     </item>
     <item
         is-multidex="false"
@@ -219,6 +165,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-iid-11.2.2_13ca7bceb6d6d2e88743128bd7e9cff847589b75.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\scott\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
         jumboMode="false"
         optimize="true"
@@ -228,12 +183,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-fragment-26.0.0-alpha1_b35d58e8d4047e93074a4d5b830d9c0c9850f52e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.2.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="7ed36108b22a98a311676b5ad153d1e3587fcd16">
         <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.android.gms-play-services-basement-11.2.2_62a5d2f2d523e5a282f1514252cbc0b0eba3b1e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-common-11.2.2_efc93636717225510ba83da0d21aa4dae06b53d6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -255,12 +228,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\firebase-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bceea9ecae6127fe2677fffebf1a1a20f19ca52e">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-firebase-release_d0255fb5c6b5439927860850108c0176554548c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="952944218ecedea1554a513dec0c14d570642843">
         <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_8740a3adf6f97167835dc756723ac58704592f2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\11.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="30553c734f57621f31d6d56ad7b263123c7a014f">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-database-connection-11.2.2_c7013473838ab849d0a54394b5efab4f3d899aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-database\11.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3352405f829252e602a47d252f11edd7c89d86ff">
+        <dex dex="C:\Users\scott\Documents\GitHub\dailylogger\DailyLogger\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.google.firebase-firebase-database-11.2.2_e72cffa353bf25d78173df2ea5887c19f47a3a17.jar" />
     </item>
 
 </items>
