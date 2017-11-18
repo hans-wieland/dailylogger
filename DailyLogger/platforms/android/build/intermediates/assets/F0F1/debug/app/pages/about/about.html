@@ -1,9 +1,18 @@
+<ActionBar title="Action Items">
+  <Image src="res://icon" class="action-image"></Image>
+  <ActionItem (tap)="about()"
+      ios.systemIcon="4" ios.position="right"
+      text="about" android.position="popup"></ActionItem>
+</ActionBar>
+
 <Page>
 <StackLayout>
   <!-- <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image> -->
   <Label text = "About"></Label>
   <TextView text =
-    "Developed using:
+  "Wayts is a workout logger application that allows you to create and share workout plans with your friends.
+
+  Developed using:
         NativeScript
         Angular
         TypeScript

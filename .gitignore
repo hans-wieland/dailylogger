@@ -59,3 +59,13 @@ startup-test/node_modules
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+*.js
+*.js
+*.bin
+*.lock
+*.txt
+*.xml
+*.java
+*.js
+*.dat
+*.json

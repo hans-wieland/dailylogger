@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
+import { RouterExtensions } from "nativescript-angular/router";
 const firebase = require("nativescript-plugin-firebase");
 
 @Component({
@@ -8,6 +9,9 @@ const firebase = require("nativescript-plugin-firebase");
   styleUrls: ["./list-common.css", "./list.css"]
 })
 export class ListComponent implements OnInit {
+  constructor(private routerExtensions: RouterExtensions) {
+
+  }
   exerciseList : Array<Object> = [];
 
   ngOnInit() {
@@ -28,5 +32,9 @@ export class ListComponent implements OnInit {
         console.log("created key: " + result.key);
       }
   );
+  }
+
+  about() {
+    this.routerExtensions.navigate(["/about"]);
   }
 }

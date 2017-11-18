@@ -1,8 +1,14 @@
+<ActionBar title="Action Items">
+    <Image src="res://icon" class="action-image"></Image>
+  <ActionItem (tap)="about()"
+      ios.systemIcon="9" ios.position="right"
+      text="about" android.position="popup"></ActionItem>
+</ActionBar>
+
 <GridLayout>
-    <ListView [items]="groceryList" class="small-spacing">
+    <ListView [items]="exerciseList" class="small-spacing">
       <ng-template let-item="item">
         <Label [text]="item.name" class="medium-spacing"></Label>
       </ng-template>
-      <Button text="Button" (tap)="testPush()"></Button>
     </ListView>
   </GridLayout>

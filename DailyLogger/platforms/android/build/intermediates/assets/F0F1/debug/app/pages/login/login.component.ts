@@ -50,21 +50,19 @@ export class LoginComponent implements OnInit {
     }).then(
       result => {
         JSON.stringify(result);
-        alert("Login Succesful!");
         this.routerExtensions.navigate(["/list"], { clearHistory: true });
       },
       errorMessage => {
         console.log(errorMessage);
-        alert("Login Error: " + errorMessage);
+        alert("There was an error logging in:\nPlease make sure your email/password is correct.");
       }
   );
   }
   
   // This is the sign up function that will register an account with firebase. 
-  // It will alert your uid now when successfull. TODO: alert something useful
+  // It will alert your uid now when successfull. 
   // If failed it will alert the error.
   // As of right now only email and password are needed for a profile.
-  // TODO: make update profile page to include name, profile picture.
   // TODO: implement email verification. 
   signUp() {
     firebase.createUser({
@@ -74,14 +72,14 @@ export class LoginComponent implements OnInit {
         result => {
           dialogs.alert({
             title: "User created",
-            message: "User successfully created!\nuserid: " + result.key,
+            message: "User successfully created!\n",
             okButtonText: "Nice!"
           })
         },
         errorMessage => {
           dialogs.alert({
             title: "No user created",
-            message: errorMessage,
+            message: "There was an error creating the user!",
             okButtonText: "OK, got it"
           })
         }
