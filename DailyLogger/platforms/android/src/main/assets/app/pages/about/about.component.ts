@@ -1,7 +1,8 @@
-import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
+import { Component, ElementRef, OnInit, ViewChild, ChangeDetectorRef } from "@angular/core";
 import { TextView } from "ui/text-view";
 import { isAndroid } from "platform";
 import { RouterExtensions } from "nativescript-angular/router";
+import { RadSideDrawerComponent, SideDrawerType } from "nativescript-pro-ui/sidedrawer/angular";
 
 @Component({
   selector: "list",
@@ -15,5 +16,9 @@ export class AboutComponent {
  }
   about() {
     this.routerExtensions.navigate(["/about"]);
+  }
+
+  public onTap() {
+
   }
 }

@@ -3,7 +3,16 @@
   <ActionItem (tap)="about()"
       ios.systemIcon="4" ios.position="right"
       text="about" android.position="popup"></ActionItem>
+      <NavigationButton icon = "res://ic_drawer" (tap)="openDrawer()"></NavigationButton>
 </ActionBar>
+<RadSideDrawer #drawer>
+    <template drawerSide>
+         <!-- Page goes here -->
+    </template>
+    <template drawerMain>
+        <!-- Main content goes here-->
+   </template>
+</RadSideDrawer>
 
 <Page>
 <StackLayout>
