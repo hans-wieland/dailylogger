@@ -5,6 +5,24 @@
       text="about" android.position="popup"></ActionItem>
 </ActionBar>
 
+<TabView selectedIndex="0"  (selectedIndexChange)="onIndexChanged($event)" sdkExampleTitle sdkToggleNavButton>
+    <StackLayout *tabItem="{title: 'About'}">
+        <!-- <Label text="NativeScript" class="m-15 h2 text-left" color="blue"></Label> -->
+        <ScrollView>
+            <Label [text]="content" textWrap="true" class="m-15"></Label>
+        </ScrollView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Workout'}">
+        <Image class="m-t-30 m-b-15" src="res://icon" width="80" height="80"></Image>
+        <Label text="NativeScript" textWrap="true" class="h2 m-x-auto" color="blue"></Label>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'User Profile'}">
+
+    </StackLayout>
+</TabView>
+
+
+
 <Page>
 <StackLayout>
   <!-- <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image> -->
