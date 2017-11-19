@@ -10,6 +10,7 @@ import { SegmentedBar, SegmentedBarItem } from "ui/segmented-bar";
   templateUrl: "./about.html",
   styleUrls: ["./about-common.css"]
 })
+
 export class AboutComponent {
   public items: Array<SegmentedBarItem>;
   public selectedIndex = 0;
