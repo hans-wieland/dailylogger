@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\zachleblanc\\Projects\\NativeScript\\Comp490App\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxxhdpi\\icon.png",
+        "source": "C:\\Users\\zachleblanc\\Projects\\NativeScript\\Comp490App\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1\\debug\\drawable-xxxhdpi\\icon.png",
         "source": "C:\\Users\\scott\\Documents\\GitHub\\dailylogger\\DailyLogger\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
     }
