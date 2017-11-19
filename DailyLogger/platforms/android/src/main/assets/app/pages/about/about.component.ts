@@ -1,8 +1,12 @@
-import { Component, ElementRef, OnInit, ViewChild, ChangeDetectorRef } from "@angular/core";
+import { Component, ElementRef, OnInit, ViewChild, ChangeDetectorRef, AfterViewInit } from "@angular/core";
 import { TextView } from "ui/text-view";
 import { isAndroid } from "platform";
 import { RouterExtensions } from "nativescript-angular/router";
 import { RadSideDrawerComponent, SideDrawerType } from "nativescript-pro-ui/sidedrawer/angular";
+import { RadSideDrawer } from 'nativescript-pro-ui/sidedrawer';
+import { Page } from "ui/page";
+import { ActionItem } from "ui/action-bar";
+import { Observable } from "data/observable";
 
 @Component({
   selector: "list",
@@ -20,7 +24,7 @@ export class AboutComponent {
   // List all pages here
    this.pages = [
       //{name:"Home"},
-      //{name:"Contact"},
+      //{name:"List"},
       {name:"About"}
   ];
   }
