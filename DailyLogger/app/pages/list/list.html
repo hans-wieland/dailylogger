@@ -1,7 +1,9 @@
+<!-- Creates an action bar with the Wayts icon at the top of the page -->
 <ActionBar title="Action Items">
     <Image src="res://icon" class="action-image"></Image>
 </ActionBar>
 
+<!-- Creates a list of exercises -->
 <GridLayout>
     <ListView [items]="exerciseList" class="small-spacing">
       <ng-template let-item="item">
