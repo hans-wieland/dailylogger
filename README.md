@@ -11,4 +11,4 @@ Created By: Anna Roodbergen, Hans Wieland, Jon Ernest, and Zach LeBlanc
 
 
 ### Features to implement:
-* Homepage
+
