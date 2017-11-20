@@ -2,22 +2,23 @@ import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { TextView } from "ui/text-view";
 import { isAndroid } from "platform";
 import { RouterExtensions } from "nativescript-angular/router";
-import { TabView, SelectedIndexChangedEventData } from "ui/tab-view";
+import { StackLayout } from "ui/layouts/stack-layout";
+import { TabView, SelectedIndexChangedEventData, TabViewItem } from "ui/tab-view";
 
 @Component({
-  selector: "list",
+  selector: "tab",
   moduleId: module.id,
-  templateUrl: "./about.html",
-  styleUrls: ["./about-common.css"]
+  templateUrl: "./tab.html",
+  styleUrls: ["./tab-common.css"]
 })
 
-export class AboutComponent {
+export class TabComponent {
   constructor(private routerExtensions: RouterExtensions) {
 
   }
 
-  about() {
-    this.routerExtensions.navigate(["/about"]);
+  tab() {
+    this.routerExtensions.navigate(["/tab"]);
   }
 }
 

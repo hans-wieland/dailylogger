@@ -2,7 +2,7 @@
 import { LoginComponent } from "./pages/login/login.component";
 import { ListComponent } from "./pages/list/list.component";
 import { AboutComponent } from "./pages/about/about.component";
-import {TabComponent} from "./pages/about/tab.component"
+import {TabComponent} from "./pages/tab/tab.component"
 
 // Make route by adding path and component
 export const routes = [
