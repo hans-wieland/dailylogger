@@ -1,16 +1,12 @@
 <TabView selectedIndex="0" > <!-- (selectedIndexChange)="onIndexChanged($event)" sdkExampleTitle sdkToggleNavButton> -->
     <StackLayout *tabItem="{title: 'About'}">
-        <about></about>
-        <!-- <ScrollView>
-            <Label [text]="content" textWrap="true" class="m-15"></Label>
-        </ScrollView> -->
+        <about></about> <!--found on stackoverflow how to display correct pages in tabView-->
     </StackLayout>
     <StackLayout *tabItem="{title: 'Workout'}">
       <list></list>
-        <!-- <Image class="m-t-30 m-b-15" src="res://icon" width="80" height="80"></Image>
-        <Label text="NativeScript" textWrap="true" class="h2 m-x-auto" color="blue"></Label> -->
     </StackLayout>
     <StackLayout *tabItem="{title: 'User Profile'}">
-        <Label text="test page"></Label>
+      <!--<profile></profile>-->
+        <Label text="profile info will go here..."></Label>-
     </StackLayout>
 </TabView>
