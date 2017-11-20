@@ -1,3 +1,9 @@
+/**
+ * This ts file is for the login page.
+ * Author: Zach LeBlanc
+ * Date: 2017-11-17
+ */
+
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { Router } from "@angular/router";
 import {RouterExtensions} from "nativescript-angular/router";
@@ -19,10 +25,19 @@ export class LoginComponent implements OnInit {
   isLoggingIn = true;
   @ViewChild("container") container: ElementRef;
 
+  /**
+   * The constructor for this file.
+   * 
+   * @param routerExtensions 
+   * @param page 
+   */
   constructor(private routerExtensions: RouterExtensions, private page: Page) {
     this.user = new User();
   }
 
+  /**
+   * initalized the page with some attributes
+   */
   ngOnInit() {
     this.page.actionBarHidden = true;
     this.page.backgroundColor = "white";
@@ -96,6 +111,9 @@ export class LoginComponent implements OnInit {
     });
   }
 
+  /**
+   * Navigate to about page for testing purposes.
+   */
   about() {
     this.routerExtensions.navigate(["/about"]);
   }

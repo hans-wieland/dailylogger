@@ -1,3 +1,7 @@
+/**
+ * This is the main class for our project. This starts angular, not really sure what else it does.
+ */
+
 import { Component } from "@angular/core";
 
 @Component({

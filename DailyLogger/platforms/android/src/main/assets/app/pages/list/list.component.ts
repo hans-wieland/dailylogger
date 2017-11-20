@@ -1,3 +1,8 @@
+/**
+ * This list component is the list page for the app.
+ * Created by Zach.
+ */
+
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { RouterExtensions } from "nativescript-angular/router";
 const firebase = require("nativescript-plugin-firebase");
@@ -15,11 +20,14 @@ export class ListComponent implements OnInit {
   exerciseList : Array<Object> = [];
 
   ngOnInit() {
-    this.exerciseList.push({ name: "Apples" });
-    this.exerciseList.push({ name: "Bananas" });
-    this.exerciseList.push({ name: "Oranges" });
+    this.exerciseList.push({ name: "Bench Press" });
+    this.exerciseList.push({ name: "Back Squat" });
+    this.exerciseList.push({ name: "Hang Clean" });
   }
 
+  /**
+   * This function pushes the list to firebase server
+   */
   testPush() {
     alert("hello");
     firebase.push(
@@ -34,6 +42,9 @@ export class ListComponent implements OnInit {
   );
   }
 
+  /**
+   * navigate to about page
+   */
   about() {
     this.routerExtensions.navigate(["/about"]);
   }

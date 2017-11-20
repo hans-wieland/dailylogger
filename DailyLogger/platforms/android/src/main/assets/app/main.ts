@@ -1,3 +1,7 @@
+/**
+ * This is the main ts file to run our app, it just initalizes firebase then runs the app.
+ */
+
 import { platformNativeScriptDynamic } from "nativescript-angular/platform";
 import { AppModule } from "./app.module";
 const firebase = require("nativescript-plugin-firebase");
@@ -15,4 +19,5 @@ firebase.init({
   }
 );
 
+//Angular's main method
 platformNativeScriptDynamic().bootstrapModule(AppModule);

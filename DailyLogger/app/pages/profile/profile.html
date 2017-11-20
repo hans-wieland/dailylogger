@@ -1,27 +1,27 @@
-
-<page>
+<Page>
 <StackLayout>
-<Image src="res://icon" stretch="none" horizontalAlignment="center"></Image>
-<body>
-<h1>insert_name_here</h1> <!-- top left -->
-<br>
-<Image src="!!profilepic!!" stretch="none" horizontalAlignment="center"></Image>
-<h3>personal_info</h3>
-<ul>
-    <li> <span style="">Height :: </span> num </li>
-    <li> <span style="">Height :: </span> num </li>
-    <!-- etc. -->
-</ul
+<Image src="~/images/buzz.jpg" stretch="none" horizontalAlignment="center"></Image>
 
-<h3> current_workouts </h3>
-<ul>
-    <li></li>
-    <li></li>
-</ul> <!-- how to access database to make this work -- can we make this work -->
+<Label text ="Buzz"></Label>
 
-<h3> personal_goals </h3>
-<!-- access from account creation maybe -->
+<Label text ="Personal Info"></Label>
 
-</body>
+<TextView text = 
+	"Height : 8 mm
+Weight : 80.87 g
+	" editable = false></TextView>
+
+	<Label text ="Current Workouts"></Label>
+
+<TextView android:layout_width = "wrap_content" text = 
+	"Workout 1 : Ten laps around the track
+Workout 2 : 250 squats
+	" editable = false></TextView>
+<Label text ="Personal Goals"></Label>
+
+<TextView text = 
+	"Goal : fly faster
+Goal : get stronger
+	" editable = false></TextView>
 </StackLayout>
-</page>
+</Page>
