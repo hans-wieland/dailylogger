@@ -1,27 +1,41 @@
+<!-- profile template test -->
 
-<page>
+
+<Page>
 <StackLayout>
-<Image src="res://icon" stretch="none" horizontalAlignment="center"></Image>
-<body>
-<h1>insert_name_here</h1> <!-- top left -->
-<br>
+<Image src="res://icon" stretch="none" horizontalAlignment="left"></Image>
+
+<Label text ="John Smith"></Label>
+
 <Image src="!!profilepic!!" stretch="none" horizontalAlignment="center"></Image>
-<h3>personal_info</h3>
-<ul>
-    <li> <span style="">Height :: </span> num </li>
-    <li> <span style="">Height :: </span> num </li>
-    <!-- etc. -->
-</ul
 
-<h3> current_workouts </h3>
-<ul>
-    <li></li>
-    <li></li>
-</ul> <!-- how to access database to make this work -- can we make this work -->
+<Label text ="Personal Info"></Label>
 
-<h3> personal_goals </h3>
-<!-- access from account creation maybe -->
+<TextView text = 
+	" Height : num
+	  Weight : num
 
-</body>
+
+
+	" editable = false></TextView>
+
+	<Label text ="Current Workouts"></Label>
+
+<TextView text = 
+	" wrk1 : wrk
+	  wrk2 : wrk
+
+
+
+	" editable = false></TextView>
+<Label text ="Personal Goals"></Label>
+
+<TextView text = 
+	" goal : goal1 
+	  goal : goal2
+
+
+
+	" editable = false></TextView>
 </StackLayout>
-</page>
+</Page>
