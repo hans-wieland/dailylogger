@@ -13,7 +13,7 @@ var AboutComponent = (function () {
 }());
 AboutComponent = __decorate([
     core_1.Component({
-        selector: "list",
+        selector: "about",
         moduleId: module.id,
         templateUrl: "./about.html",
         styleUrls: ["./about-common.css"]

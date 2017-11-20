@@ -36,9 +36,9 @@ export class LoginComponent implements OnInit {
       this.signUp();
     }
   }
-  
+
   // This is a login function with firebase. When successfully logged in it
-  // will move you to the next page. If the login failed it will print the 
+  // will move you to the next page. If the login failed it will print the
   // error message in an alert.
   login() {
     firebase.login({
@@ -50,7 +50,8 @@ export class LoginComponent implements OnInit {
     }).then(
       result => {
         JSON.stringify(result);
-        this.routerExtensions.navigate(["/list"], { clearHistory: true });
+        //this.routerExtensions.navigate(["/list"], { clearHistory: true });
+        this.routerExtensions.navigate(["/tab"], { clearHistory: true });
       },
       errorMessage => {
         console.log(errorMessage);
@@ -58,12 +59,12 @@ export class LoginComponent implements OnInit {
       }
   );
   }
-  
-  // This is the sign up function that will register an account with firebase. 
-  // It will alert your uid now when successfull. 
+
+  // This is the sign up function that will register an account with firebase.
+  // It will alert your uid now when successfull.
   // If failed it will alert the error.
   // As of right now only email and password are needed for a profile.
-  // TODO: implement email verification. 
+  // TODO: implement email verification.
   signUp() {
     firebase.createUser({
       email: this.user.email,
@@ -85,7 +86,7 @@ export class LoginComponent implements OnInit {
         }
     );
   }
-  
+
   // Toggles display for signin/signup button.
   toggleDisplay() {
     this.isLoggingIn = !this.isLoggingIn;

@@ -5,7 +5,7 @@ import { RouterExtensions } from "nativescript-angular/router";
 import { TabView, SelectedIndexChangedEventData } from "ui/tab-view";
 
 @Component({
-  selector: "list",
+  selector: "about",
   moduleId: module.id,
   templateUrl: "./about.html",
   styleUrls: ["./about-common.css"]
