@@ -19,6 +19,7 @@ export class ListComponent implements OnInit {
   }
   exerciseList : Array<Object> = [];
 
+  /* Creates the text for the list items */
   ngOnInit() {
     this.exerciseList.push({ name: "Bench Press" });
     this.exerciseList.push({ name: "Back Squat" });
