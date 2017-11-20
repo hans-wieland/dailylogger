@@ -10,6 +10,7 @@
 /Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/assets/app/shared/grocery/grocery.js
 /Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/assets/app/shared/grocery/grocery-list.service.js
 /Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/assets/app/pages/about/about.component.js
+/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/assets/app/pages/tab/tab.component.js
 /Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/assets/app/pages/profile/profile.component.js
 /Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/assets/app/pages/list/list.component.js
 /Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/assets/app/pages/login/login.component.js

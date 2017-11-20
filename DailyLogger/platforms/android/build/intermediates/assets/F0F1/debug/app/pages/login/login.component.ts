@@ -1,3 +1,9 @@
+/**
+ * This ts file is for the login page.
+ * Author: Zach LeBlanc
+ * Date: 2017-11-17
+ */
+
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { Router } from "@angular/router";
 import {RouterExtensions} from "nativescript-angular/router";
@@ -19,10 +25,19 @@ export class LoginComponent implements OnInit {
   isLoggingIn = true;
   @ViewChild("container") container: ElementRef;
 
+  /**
+   * The constructor for this file.
+   * 
+   * @param routerExtensions 
+   * @param page 
+   */
   constructor(private routerExtensions: RouterExtensions, private page: Page) {
     this.user = new User();
   }
 
+  /**
+   * initalized the page with some attributes
+   */
   ngOnInit() {
     this.page.actionBarHidden = true;
     this.page.backgroundColor = "white";
@@ -50,21 +65,19 @@ export class LoginComponent implements OnInit {
     }).then(
       result => {
         JSON.stringify(result);
-        alert("Login Succesful!");
-        this.routerExtensions.navigate(["/list"], { clearHistory: true });
+        this.routerExtensions.navigate(["/tab"], { clearHistory: true });
       },
       errorMessage => {
         console.log(errorMessage);
-        alert("Login Error: " + errorMessage);
+        alert("There was an error logging in:\nPlease make sure your email/password is correct.");
       }
   );
   }
   
   // This is the sign up function that will register an account with firebase. 
-  // It will alert your uid now when successfull. TODO: alert something useful
+  // It will alert your uid now when successfull. 
   // If failed it will alert the error.
   // As of right now only email and password are needed for a profile.
-  // TODO: make update profile page to include name, profile picture.
   // TODO: implement email verification. 
   signUp() {
     firebase.createUser({
@@ -74,14 +87,14 @@ export class LoginComponent implements OnInit {
         result => {
           dialogs.alert({
             title: "User created",
-            message: "User successfully created!\nuserid: " + result.key,
+            message: "User successfully created!\n",
             okButtonText: "Nice!"
           })
         },
         errorMessage => {
           dialogs.alert({
             title: "No user created",
-            message: errorMessage,
+            message: "There was an error creating the user!",
             okButtonText: "OK, got it"
           })
         }
@@ -96,9 +109,5 @@ export class LoginComponent implements OnInit {
       backgroundColor: this.isLoggingIn ? new Color("white") : new Color("gray"),
       duration: 200
     });
-  }
-
-  about() {
-    this.routerExtensions.navigate(["/about"]);
   }
 }

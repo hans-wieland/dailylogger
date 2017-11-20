@@ -2,5 +2,9 @@
     {
         "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xhdpi/icon.png",
         "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xhdpi/add.png",
+        "source": "/Users/zachleblanc/Projects/NativeScript/Comp490App/dailylogger/DailyLogger/platforms/android/src/main/res/drawable-xhdpi/add.png"
     }
 ]

@@ -5,6 +5,7 @@
 
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { RouterExtensions } from "nativescript-angular/router";
+import { TextField } from "ui/text-field";
 const firebase = require("nativescript-plugin-firebase");
 
 @Component({
@@ -19,6 +20,7 @@ export class ListComponent implements OnInit {
   }
   exerciseList : Array<Object> = [];
 
+  /* Creates the text for the list items */
   ngOnInit() {
     this.exerciseList.push({ name: "Bench Press" });
     this.exerciseList.push({ name: "Back Squat" });

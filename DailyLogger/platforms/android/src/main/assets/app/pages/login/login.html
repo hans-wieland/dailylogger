@@ -1,11 +1,14 @@
+<!-- Creates a login page for the application with the a stack layout -->
 <StackLayout #container>
     <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image>
-  
+    
+    <!-- TextField creates boxes for the user to input their email and password -->
     <TextField hint="Email Address" keyboardType="email" [(ngModel)]="user.email"
       autocorrect="false" autocapitalizationType="none"></TextField>
     <TextField hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
-      
-    <Button [text]="isLoggingIn ? 'Sign in' : 'Sign up'" class="submit-button" (tap)="submit()"></Button>
-    <Button [text]="isLoggingIn ? 'Sign up' : 'Back to login'" (tap)="toggleDisplay()"></Button>
+    
+    <!-- Creates the sign in buttons for the page -->
+    <Button [text]="isLoggingIn ? 'Sign in' : 'Sign up'" class="submit-button" (tap)="submit()"></Button> 
+    <Button [text]="isLoggingIn ? 'Sign up' : 'Back to login'" (tap)="toggleDisplay()"></Button> <!-- on tap the sign in page changes to sign up and back again -->
   </StackLayout>
   

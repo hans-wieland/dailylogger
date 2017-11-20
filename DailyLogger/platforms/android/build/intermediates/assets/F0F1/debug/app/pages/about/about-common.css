@@ -1,3 +1,4 @@
+/* Creates a consistent style for the about page, specifically the action bar elements and About title */
 StackLayout {
     margin-left: 30;
     margin-right: 30;
@@ -12,6 +13,7 @@ StackLayout {
     vertical-align: center;
 }
 
+/* No longer used, formats any labels in the action bar*/
 .action-label {
     color: #00FFFF;  /*Need to change color to fit with app*/
     font-size: 24;

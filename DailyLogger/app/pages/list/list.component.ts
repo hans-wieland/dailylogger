@@ -5,6 +5,7 @@
 
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import { RouterExtensions } from "nativescript-angular/router";
+import { TextField } from "ui/text-field";
 const firebase = require("nativescript-plugin-firebase");
 
 @Component({

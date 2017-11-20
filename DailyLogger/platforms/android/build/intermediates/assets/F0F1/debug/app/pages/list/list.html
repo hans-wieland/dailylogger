@@ -1,8 +1,20 @@
-<GridLayout>
-    <ListView [items]="groceryList" class="small-spacing">
-      <ng-template let-item="item">
-        <Label [text]="item.name" class="medium-spacing"></Label>
-      </ng-template>
-      <Button text="Button" (tap)="testPush()"></Button>
-    </ListView>
-  </GridLayout>
+<!-- Creates an action bar with the Wayts icon at the top of the page -->
+<ActionBar title="Action Items">
+    <Image src="res://icon" class="action-image"></Image>
+</ActionBar>
+
+<!-- Creates a list of exercises -->
+<GridLayout rows="auto, *">
+    
+      <GridLayout row="0" columns="*, auto" class="add-bar">
+          <TextField hint="Enter a workout" (returnPress)="add()" col="0"></TextField>
+          <Image src="res://add" (tap)="add()" col="1"></Image>
+      </GridLayout>
+    
+      <ListView [items]="exerciseList" row="1" class="small-spacing">
+        <ng-template let-item="item">
+          <Label [text]="item.name" class="medium-spacing"></Label>
+        </ng-template>
+      </ListView>
+    
+    </GridLayout>

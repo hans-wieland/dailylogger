@@ -7,4 +7,5 @@
     <string name="google_app_id" translatable="false">1:666084870768:android:b2d81ffe6725be57</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDg68fK7Q_SuTbmYE-s471j02ZsdaOPk8k</string>
     <string name="google_storage_bucket" translatable="false">wayts-86544.appspot.com</string>
+    <string name="project_id" translatable="false">wayts-86544</string>
 </resources>

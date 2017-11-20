@@ -1,11 +1,13 @@
+<!-- Creates an Action Bar at the top of the page with the app icon -->
 <ActionBar title="Action Items">
   <Image src="res://icon" class="action-image"></Image>
 </ActionBar>
 
 <Page>
 <StackLayout>
-  <!-- <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image> -->
+  <!-- Use StackLayout to keep elements in a stack formation-->
   <Label text = "About"></Label>
+  <!-- Used a TextView component to allow for text to be displayed on the page how I wanted -->
   <TextView text =
   "Wayts is a workout logger application that allows you to create and share workout plans with your friends.
 
@@ -20,7 +22,7 @@
         Jon Ernest
         Hans Wieland
         Anna Roodbergen
-        " editable = false>
+        " editable = false> <!-- editable set to false so that text can't be edited by the user -->
   </TextView>
 </StackLayout>
 </Page>
